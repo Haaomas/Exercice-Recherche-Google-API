@@ -9,3 +9,7 @@
  * Mise en place du traitement des données avec POST 
  * Création du fichier de traitement des news 
  * Vérification de récupération des données 
+
+ # Etape 3
+ * Création du cookie de récupération des données du formulaire
+ * Vérification de création du cookie
