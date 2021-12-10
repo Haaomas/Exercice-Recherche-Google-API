@@ -15,7 +15,16 @@ if (isset($_COOKIE['motcle']) && isset($_COOKIE["duree"])) {
     $data = simplexml_load_file($urlGoogle);
     // var_dump($data);
     foreach ($data->channel->item as $item) {
-        echo "<h2><a href=" . $item->link . ">" . $item->title . "</a></h2>";
+        $date = strtotime($item->pubDate);
+        $lien = "<h4><a href=" . $item->link . ">" . $item->title . "</a></h4>";
+        $unLien["date"] = $date;
+        $unLien["lien"] = $lien;
+        $tableau[] = $unLien;
+    }
+    // var_dump($tableau);
+    rsort($tableau);
+    for ($i = 0; $i < 10; $i++) {
+        echo $tableau[$i]["lien"] . "<br>";
     }
 } else {
     echo "Le cookie n'existe pas ";

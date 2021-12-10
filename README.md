@@ -17,3 +17,6 @@
  # Etape 4
  * Récupération des données via RSS de google news 
  * Affichage des données dans le HTML
+
+ # Etapes 5 
+ * Trie des fichiers par date décroissante
