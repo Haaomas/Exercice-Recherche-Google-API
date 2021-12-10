@@ -18,18 +18,18 @@
 
 <body>
     <h1>Parétrage des news</h1>
-    <form action="">
-        <label for="news">Recheche</label>
-        <input type="text" id="news" name="news" size="80">
+    <form action="traitement-news.php" method="POST">
+        <label for="motcle">Recheche</label>
+        <input type="text" id="motcle" name="motcle" size="80">
         <br>
-        <label for="date">Plage de la recherche</label>
-        <select name="date" id="date">
+        <label for="duree">Plage de la recherche</label>
+        <select name="duree" id="duree">
             <option>Moins d'une heure</option>
             <option>Ajourd'hui</option>
             <option>Cette semaine</option>
         </select>
         <br>
-        <input type="button" value="Choisir ces paramètres">
+        <input type="submit" value="Choisir ces paramètres">
     </form>
 </body>
 
