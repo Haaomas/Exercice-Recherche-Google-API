@@ -25,7 +25,7 @@
         <label for="duree">Plage de la recherche</label>
         <select name="duree" id="duree">
             <option>Moins d'une heure</option>
-            <option>Ajourd'hui</option>
+            <option>Aujourd'hui</option>
             <option>Cette semaine</option>
         </select>
         <br>
