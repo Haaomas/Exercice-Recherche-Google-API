@@ -4,3 +4,8 @@
 # Etapes 1 
  * Mise en place du HTML
  * Création du formulaire
+
+ # Etape 2
+ * Mise en place du traitement des données avec POST 
+ * Création du fichier de traitement des news 
+ * Vérification de récupération des données 
